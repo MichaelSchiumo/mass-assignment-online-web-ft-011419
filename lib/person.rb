@@ -8,7 +8,7 @@ class Person
 
  attributes.each {|key, value| self.send(("#{key}="), value)}
  
- 
+ person.send("#{method_name}=", value)
   
   end
   
