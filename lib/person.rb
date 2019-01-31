@@ -1,3 +1,7 @@
 class Person
-  #your code here
+
+  def initialize(:name, :birthday, :hair_color, :eye_color)
+  
+  end
+
 end
